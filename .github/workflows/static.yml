@@ -46,12 +46,4 @@ jobs:
 
         # ... (rest of your workflow configuration above)
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4 # Ensure this is up to date
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5 # Check if a newer version like v5+ is available if warning persists
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4 # Ensure this is the latest v4 minor/patch release
+   atest v4 minor/patch release
